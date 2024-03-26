@@ -6,7 +6,7 @@ title: 基础用法
 </docs>
 
 <script setup lang="ts">
-import { Loading } from '@tv-ui-webxiyao/tb'
+import { Loading } from '@tov-ui-webxiyao/tb'
 </script>
 
 <template>

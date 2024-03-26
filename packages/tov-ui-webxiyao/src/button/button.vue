@@ -1,7 +1,7 @@
 <script lang="ts">
 import type { PropType } from 'vue'
 import { defineComponent } from 'vue'
-import { useClassnames } from '@tv-ui-webxiyao/utils'
+import { useClassnames } from '@tov-ui-webxiyao/utils'
 
 export default defineComponent({
   name: 'TButton',

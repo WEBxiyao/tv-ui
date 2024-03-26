@@ -5,8 +5,8 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import { AntdTheme } from 'vite-plugin-vitepress-demo/theme'
 
-// import tov from 'tv-ui-webxiyao'
-import 'tv-ui-webxiyao/style.ts'
+// import tov from 'tov-ui-webxiyao'
+import 'tov-ui-webxiyao/style.ts'
 
 export default {
   extends: DefaultTheme,

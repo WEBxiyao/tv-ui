@@ -6,7 +6,7 @@ title: 基础用法
 </docs>
 
 <script setup lang="ts">
-import { Notification } from 'tv-ui-webxiyao'
+import { Notification } from 'tov-ui-webxiyao'
 import { getCurrentInstance, h } from 'vue'
 import Test from '../components/Test.vue'
 

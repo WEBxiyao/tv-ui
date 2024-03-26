@@ -10,17 +10,17 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@tv-ui-webxiyao/utils": [
+      "@tov-ui-webxiyao/utils": [
         "packages/utils/src"
       ],
-      "@tv-ui-webxiyao/tb": [
+      "@tov-ui-webxiyao/tb": [
         "packages/icons/src"
       ],
-      "tv-ui-webxiyao": [
-        "packages/tv-ui-webxiyao/src"
+      "tov-ui-webxiyao": [
+        "packages/tov-ui-webxiyao/src"
       ],
-      "tv-ui-webxiyao/*": [
-        "packages/tv-ui-webxiyao/src/*"
+      "tov-ui-webxiyao/*": [
+        "packages/tov-ui-webxiyao/src/*"
       ]
     },
     "resolveJsonModule": true,

@@ -1,5 +1,5 @@
 import { TransitionGroup, defineComponent, onMounted, ref } from 'vue'
-import { useClassnames } from '@tv-ui-webxiyao/utils'
+import { useClassnames } from '@tov-ui-webxiyao/utils'
 import type { NotificationConfig, NotificationConfigInstance, NotificationConfigType } from './type'
 
 export default defineComponent<{

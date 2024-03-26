@@ -18,7 +18,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      external: ['vue', '@floating-ui/vue', '@v-c/utils', 'lodash-es', '@tv-ui-webxiyao/utils', '@tv-ui-webxiyao/tb'],
+      external: ['vue', '@floating-ui/vue', '@v-c/utils', 'lodash-es', '@tov-ui-webxiyao/utils', '@tov-ui-webxiyao/tb'],
       output: [
         {
           preserveModules: true,

@@ -1,11 +1,11 @@
 {
-  "name": "tv-ui-webxiyao",
+  "name": "tov-ui-webxiyao",
   "type": "module",
   "version": "1.0.0",
-  "description": "this is tv-ui-webxiyao",
+  "description": "this is tov-ui-webxiyao",
   "author": "xiyao <2865727876@qq.com>",
   "license": "MIT",
-  "keywords": ["vue", "vue3", "tv-ui-webxiyao", "components"],
+  "keywords": ["vue", "vue3", "tov-ui-webxiyao", "components"],
   "exports": {
     ".": {
       "types": "./es/index.d.ts",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@floating-ui/vue": "^1.0.6",
-    "@tv-ui-webxiyao/utils": "workspace:*",
+    "@tov-ui-webxiyao/utils": "workspace:*",
     "@v-c/utils": "^0.0.26",
     "lodash-es": "^4.17.21"
   },

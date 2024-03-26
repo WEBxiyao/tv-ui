@@ -22,5 +22,5 @@ red.forEach((color, index) => {
   colors += `--tov-color-error-${index + 1}: ${color};\n`
 })
 const baseUrl = fileURLToPath(new URL('../', import.meta.url))
-const cssFile = path.resolve(baseUrl, 'packages/tv-ui-webxiyao/src/styles/theme/colors.less')
+const cssFile = path.resolve(baseUrl, 'packages/tov-ui-webxiyao/src/styles/theme/colors.less')
 fs.writeFileSync(cssFile, `:root{\n${colors}\n}`)

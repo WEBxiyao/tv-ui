@@ -25,15 +25,15 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: /^@tv-ui-webxiyao\/tb/,
+        find: /^@tov-ui-webxiyao\/tb/,
         replacement: resolve(baseUrl, 'packages/icons/src'),
       },
       {
-        find: /^tv-ui-webxiyao/,
-        replacement: resolve(baseUrl, 'packages/tv-ui-webxiyao/src'),
+        find: /^tov-ui-webxiyao/,
+        replacement: resolve(baseUrl, 'packages/tov-ui-webxiyao/src'),
       },
       {
-        find: /^@tv-ui-webxiyao\/utils/,
+        find: /^@tov-ui-webxiyao\/utils/,
         replacement: resolve(baseUrl, 'packages/utils/src'),
       },
     ],
