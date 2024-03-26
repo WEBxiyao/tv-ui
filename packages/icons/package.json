@@ -1,11 +1,31 @@
 {
   "name": "@tv-ui-webxiyao/icons",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "main": "index.js",
+  "description": "this is a icons package",
+  "author": "webxiyao <2865727876@qq.com>",
+  "license": "MIT",
+  "keywords": ["vue", "vue3", "icons"],
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.js",
+      "require": "./lib/index.js"
+    },
+    "./es/*": "./es/*",
+    "./lib/*": "./lib/*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "build": "vite build",
     "build:umd": "vite build --config vite.umd.config.ts"

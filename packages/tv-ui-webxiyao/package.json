@@ -19,6 +19,11 @@
   },
   "main": "./es/index.js",
   "types": "./es/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "build": "vite build",
     "build:umd": "vite build --config vite.umd.config.ts",
