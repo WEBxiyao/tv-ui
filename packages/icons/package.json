@@ -1,0 +1,13 @@
+{
+  "name": "@tv-ui/icons",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "build:umd": "vite build --config vite.umd.config.ts"
+  }
+}

@@ -1,0 +1,34 @@
+.tov-notification{
+   position: fixed;
+   z-index: 1000;
+   top:0;
+   right: 20px;
+   min-width:60px;
+   &-wrapper{
+    background-color: #fff;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow:0px 6px 16px -8px rbga(0,0,0.08,0.08),0px 9px 28px 8px rbga(0,0,0.05,0.05),0px 12px 48px 16px rbga(0,0,0.03,0.03);
+    border: 1px solid #ccc;
+    &-title{
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    &-content{
+      font-size: 14px;
+    }
+   }
+  }
+  .right-slide-enter-active,.right-slide-leave-active,.right-slide-move{
+    transition: all 0.3s;
+   }
+   .right-slide-enter-from,.right-slide-leave-to{
+    transform: translateX(100%);
+    opacity: 0;
+   }
+   .right-slide-leave-active{
+    position: absolute;
+   }
+  

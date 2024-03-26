@@ -1,0 +1,37 @@
+{
+  "name": "tv-ui",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "this is tv-ui",
+  "author": "xiyao <2865727876@qq.com>",
+  "license": "MIT",
+  "keywords": ["vue", "vue3", "tv-ui", "components"],
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.js",
+      "require": "./lib/index.js"
+    },
+    "./es/*": "./es/*",
+    "./lib/*": "./lib/*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "main": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "build:umd": "vite build --config vite.umd.config.ts",
+    "build:style": "vite build --config vite.umd.style.config.ts"
+  },
+  "dependencies": {
+    "@floating-ui/vue": "^1.0.6",
+    "@tv-ui/utils": "workspace:*",
+    "@v-c/utils": "^0.0.26",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/lodash-es": "^4.17.12"
+  }
+}
