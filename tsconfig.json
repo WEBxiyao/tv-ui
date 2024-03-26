@@ -10,17 +10,17 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@tv-ui/utils": [
+      "@tv-ui-webxiyao/utils": [
         "packages/utils/src"
       ],
-      "@tv-ui/tb": [
+      "@tv-ui-webxiyao/tb": [
         "packages/icons/src"
       ],
-      "tv-ui": [
-        "packages/tv-ui/src"
+      "tv-ui-webxiyao": [
+        "packages/tv-ui-webxiyao/src"
       ],
-      "tv-ui/*": [
-        "packages/tv-ui/src/*"
+      "tv-ui-webxiyao/*": [
+        "packages/tv-ui-webxiyao/src/*"
       ]
     },
     "resolveJsonModule": true,

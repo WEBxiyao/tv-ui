@@ -84,12 +84,12 @@ importers:
 
   packages/icons: {}
 
-  packages/tv-ui:
+  packages/tv-ui-webxiyao:
     dependencies:
       '@floating-ui/vue':
         specifier: ^1.0.6
         version: 1.0.6(vue@3.4.21)
-      '@tv-ui/utils':
+      '@tv-ui-webxiyao/utils':
         specifier: workspace:*
         version: link:../utils
       '@v-c/utils':

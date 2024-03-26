@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'this is a compontents',
   rewrites: {
     'docs/(.*)': '(.*)',
-    'packages/tv-ui/src/:comp/(.*)': 'components/:comp/(.*)',
+    'packages/tv-ui-webxiyao/src/:comp/(.*)': 'components/:comp/(.*)',
     'packages/utils/src/(.*)': 'utils/(.*)',
     'packages/icons/docs/(.*)': 'components/icons/(.*)',
   },

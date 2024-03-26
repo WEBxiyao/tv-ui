@@ -7,7 +7,7 @@ export function tovUiResolver(): ComponentResolver {
       if (name.startsWith('T')) {
         return {
           name: name.slice(1),
-          from: 'tv-ui',
+          from: 'tv-ui-webxiyao',
         }
       }
     },

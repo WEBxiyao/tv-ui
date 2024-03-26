@@ -15,7 +15,7 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: /^@tv-ui\/utils/,
+        find: /^@tv-ui-webxiyao\/utils/,
         replacement: resolve(baseUrl, '../utils/src'),
       },
     ],

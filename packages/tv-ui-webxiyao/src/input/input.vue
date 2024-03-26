@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { nextTick, onMounted, ref } from 'vue'
-import { useClassnames } from '@tv-ui/utils'
+import { useClassnames } from '@tv-ui-webxiyao/utils'
 import { omit, pick } from 'lodash-es'
 import { type InputProps, originInputProps } from './type'
 

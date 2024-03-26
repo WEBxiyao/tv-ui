@@ -7,6 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    TButton: typeof import('tv-ui')['Button']
+    TButton: typeof import('tv-ui-webxiyao')['Button']
   }
 }

@@ -4,7 +4,7 @@ import fg from 'fast-glob'
 import fs from 'fs-extra'
 import less from 'less'
 
-const tovDir = fileURLToPath(new URL('../packages/tv-ui', import.meta.url))
+const tovDir = fileURLToPath(new URL('../packages/tv-ui-webxiyao', import.meta.url))
 const lessFiles = fg.sync([
   'src/**/style/index.less',
   '!src/styles',
