@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useClassNames } from '../gen-class.ts'
+import { useClassnames } from '../gen-class'
 
 const test = ref(false)
-const { c, ce } = useClassNames('button')
+const { c, ce } = useClassnames('button')
 </script>
 
 <template>

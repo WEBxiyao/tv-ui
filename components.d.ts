@@ -8,5 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     TButton: typeof import('tov-ui-webxiyao')['Button']
+    TInput: typeof import('tov-ui-webxiyao')['Input']
+    TTable: typeof import('tov-ui-webxiyao')['Table']
+    TTooltip: typeof import('tov-ui-webxiyao')['Tooltip']
   }
 }
