@@ -6,6 +6,7 @@
     "prepare": "husky",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
+    "docs:vercel": "cross-env BUILD_VERCEL=true vitepress build",
     "docs:preview": "vitepress preview",
     "genColors": "esno ./scripts/gen-colors.ts",
     "build:css": "esno ./scripts/css-bundle.ts"
@@ -21,6 +22,7 @@
     "@types/less": "^3.0.6",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.55.0",
     "esno": "^4.7.0",
     "fast-glob": "^3.3.2",

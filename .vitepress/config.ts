@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'TV UI',
   description: 'this is a compontents',
   // eslint-disable-next-line node/prefer-global/process
-  base: process.env.NODE_ENV === 'production' ? '/tv-ui/' : '/',
+  base: process.env.NODE_ENV === 'production' && !process.env.BUILD_VERCEL ? '/tv-ui/' : '/',
   rewrites: {
     'docs/(.*)': '(.*)',
     'packages/tov-ui-webxiyao/src/:comp/(.*)': 'components/:comp/(.*)',
